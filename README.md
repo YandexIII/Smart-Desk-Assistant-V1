@@ -5,8 +5,7 @@ This prototype runs on an Arduino Mega and integrates several components:
 *   **Time & Temp:** A DS3231 Real-Time Clock (RTC) and a temperature/humidity sensor. 
 *   **User Interface:** A 16x2 LCD screen and a physical push-button to cycle through menus.
 *   **RFID Login:** An MFRC522 RFID reader. I have a Blue tag and a White tag. When I scan one, it "logs me in" on the screen and sets a specific alarm (7 AM or 10 PM). Scanning again logs me out.
-*   **Smart Lighting:** An analog light sensor that turns on an LED automatically when my attic gets dark.
-*   **Modular Code:** I refactored the code so the `loop()` is clean, using separate functions like `checkRFID()` and `updateDisplay()`.
+*   **Smart Lighting:** An analog light sensor that turns on an LED automatically when it gets dark.
 
 ## Flaws
 *   The Osoyoo IoT Wi-Fi shield that came with my Mega is practically dead so i couldnt implement wifi and resigned to using an rtc module.
