@@ -21,3 +21,4 @@ This prototype runs on an Arduino Mega and integrates several components:
 6.   3d printing a casing using black and translucent pla(for the led)
 
 If you want to build this, check the `.ino` file. The RFID reader uses SPI (SS=48, RST=49). The LCD and sensors use I2C. 
+Youtube link to the demo video: https://www.youtube.com/watch?v=ADaMu35Ra44
